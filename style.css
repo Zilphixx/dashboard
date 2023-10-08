@@ -8,6 +8,11 @@
   --main-text-color: #6b7280;
 }
 
+@font-face {
+  font-family: custom-fonts;
+  src: url(resources/RobotoCondensed-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +23,7 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
+  font-family: custom-fonts, sans-serif;
 }
 
 .sidebar {
