@@ -59,10 +59,10 @@
 }
 
 .top-content {
-  outline: 1px solid green;
-  padding: 20px;
+  padding: 10px 20px;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  row-gap: 10px;
 }
 
 .first-section {
@@ -110,6 +110,24 @@
 
 .third-section .hero-name {
   font-size: 1.5rem;
+}
+
+.fourth-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fourth-section button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 0;
+  width: 100px;
+  border: none;
+  border-radius: 24px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .name {
